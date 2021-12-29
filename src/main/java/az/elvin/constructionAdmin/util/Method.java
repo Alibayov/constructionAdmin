@@ -11,7 +11,10 @@ import java.util.UUID;
 public class Method {
 
     private static final String UPLOAD_DIRECTORY = "upload";
-    private static final String url = "C:\\Users\\DELL\\Desktop\\freeLance";
+  //  private static final String url = "C:\\Users\\DELL\\Desktop\\freeLance";
+
+    private static final String url = "/home/media/pictures/";
+
 
     public static String fileWrite(MultipartFile image) throws IOException {
 
